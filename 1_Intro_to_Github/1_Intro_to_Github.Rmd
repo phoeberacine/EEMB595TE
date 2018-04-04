@@ -1,0 +1,88 @@
+---
+title: "Theoretical Ecology 
+
+\n(EEMB 595TE) Spring 2018
+
+\n Class 1: Introduction to Github"
+
+output:
+  html_document:
+    highlight: zenburn
+    theme: paper
+    toc: yes
+    toc_float: yes
+  pdf_document:
+    toc: yes
+---
+
+<img src="/Users/Cici/EEMB595TE/1_Intro_to_Github/UCSB_logo.png" style="position:absolute;top:9px;right:115px;width:150px;height=240px" />
+
+<img src="/Users/Cici/EEMB595TE/1_Intro_to_Github/Octocat.png" style="position:absolute;top:100px;right:115px;width:150px;height=240px" />
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Objectives
+
+(1) To learn what is Git, Github, GitDesktop, and Rstudio
+
+(2) To learn how to use version control
+
+(3) To learn how to obtain class materials using the terminal
+
+## Before starting
+
+Before starting this tutorital, you will need to download several pieces of software:
+
+- RStudio
+
+      https://www.rstudio.com/
+      
+- Git
+
+      https://git-scm.com/downloads
+      
+- GitDesktop
+
+      https://desktop.github.com/
+
+As well as create a Github account:
+
+- Github
+
+      http://github.com
+
+- Note that you can eligible for unlimited private repositories as a student on Github (with a standard account you only get 5 private repositories):
+
+      https://education.github.com/discount_requests/new
+
+te that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+#### Why Github?
+- Version control
+  
+    - Keeps track of deletions/additions to code
+    
+    - Shows changes that collaboratos have made
+    
+    - Have 1 file rather than 20 with different names, date, and version numbers 
+
+- Good workflow with collaborators
+    
+    - One location for:
+        
+        - Code
+        
+        - Collaborator discussions
+
+- Reproducible and transparent methods and results
+
+    - You can post PDFs, code, and data all in a single location for others to 
+
+#### Course Materials 
+
+To access the course materials you must be able to interact with GitHub and must install our course-specific ``R`` package ``SESYNCBayes``. After completing the initial install of these materials, plan on updating throughout the course as add new content or tweak pre-existing material.  Instructions for the initial setup and ongoing updates are below.
+
+A quick note about GitHub: at the heart of GitHub is an open source version control system (VCS) called Git. Git is responsible for everything GitHub-related that happens locally on your computer. There are a few things that you will need to do to get going with git/GitHub.  Mainly, you must create free a GitHub account and get your machine ready to interact with your account.
+
